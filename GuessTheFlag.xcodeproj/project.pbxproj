@@ -15,6 +15,7 @@
 		70ADD2742AD89641002E08CF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2732AD89641002E08CF /* MainViewModel.swift */; };
 		70ADD2762AD8999D002E08CF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2752AD8999D002E08CF /* Country.swift */; };
 		70ADD27D2AD8A34F002E08CF /* Flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 70ADD27C2AD8A34F002E08CF /* Flags.json */; };
+		70ADD27F2AD8B9BF002E08CF /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD27E2AD8B9BF002E08CF /* HapticService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		70ADD2732AD89641002E08CF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		70ADD2752AD8999D002E08CF /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		70ADD27C2AD8A34F002E08CF /* Flags.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Flags.json; sourceTree = "<group>"; };
+		70ADD27E2AD8B9BF002E08CF /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				70ADD2712AD8952A002E08CF /* CountryService.swift */,
 				70ADD2732AD89641002E08CF /* MainViewModel.swift */,
 				70ADD2752AD8999D002E08CF /* Country.swift */,
+				70ADD27E2AD8B9BF002E08CF /* HapticService.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				70ADD2662AD89234002E08CF /* MainView.swift in Sources */,
 				70ADD2722AD8952A002E08CF /* CountryService.swift in Sources */,
+				70ADD27F2AD8B9BF002E08CF /* HapticService.swift in Sources */,
 				70ADD2642AD89234002E08CF /* GuessTheFlagApp.swift in Sources */,
 				70ADD2762AD8999D002E08CF /* Country.swift in Sources */,
 				70ADD2742AD89641002E08CF /* MainViewModel.swift in Sources */,

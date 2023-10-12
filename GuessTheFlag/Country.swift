@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct Country:Identifiable,Decodable{
+struct Country:Identifiable,Decodable,Equatable{
         var id:String = UUID().uuidString
         let name:String
         let code:String
@@ -17,5 +17,9 @@ struct Country:Identifiable,Decodable{
         case name
         case code
         case image
+    }
+    
+    static func == (lhs: Country, rhs: Country) -> Bool {
+        return lhs.name == rhs.name && lhs.code == rhs.code
     }
 }
