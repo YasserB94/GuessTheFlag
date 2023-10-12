@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		70ADD2642AD89234002E08CF /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2632AD89234002E08CF /* GuessTheFlagApp.swift */; };
-		70ADD2662AD89234002E08CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2652AD89234002E08CF /* ContentView.swift */; };
+		70ADD2662AD89234002E08CF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2652AD89234002E08CF /* MainView.swift */; };
 		70ADD2682AD89234002E08CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70ADD2672AD89234002E08CF /* Assets.xcassets */; };
 		70ADD26B2AD89234002E08CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70ADD26A2AD89234002E08CF /* Preview Assets.xcassets */; };
+		70ADD2722AD8952A002E08CF /* CountryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2712AD8952A002E08CF /* CountryService.swift */; };
+		70ADD2742AD89641002E08CF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2732AD89641002E08CF /* MainViewModel.swift */; };
+		70ADD2762AD8999D002E08CF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ADD2752AD8999D002E08CF /* Country.swift */; };
+		70ADD27D2AD8A34F002E08CF /* Flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 70ADD27C2AD8A34F002E08CF /* Flags.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		70ADD2602AD89234002E08CF /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70ADD2632AD89234002E08CF /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		70ADD2652AD89234002E08CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70ADD2652AD89234002E08CF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		70ADD2672AD89234002E08CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70ADD26A2AD89234002E08CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70ADD2712AD8952A002E08CF /* CountryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryService.swift; sourceTree = "<group>"; };
+		70ADD2732AD89641002E08CF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		70ADD2752AD8999D002E08CF /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		70ADD27C2AD8A34F002E08CF /* Flags.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Flags.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		70ADD2622AD89234002E08CF /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
+				70ADD27C2AD8A34F002E08CF /* Flags.json */,
 				70ADD2632AD89234002E08CF /* GuessTheFlagApp.swift */,
-				70ADD2652AD89234002E08CF /* ContentView.swift */,
+				70ADD2652AD89234002E08CF /* MainView.swift */,
 				70ADD2672AD89234002E08CF /* Assets.xcassets */,
 				70ADD2692AD89234002E08CF /* Preview Content */,
+				70ADD2712AD8952A002E08CF /* CountryService.swift */,
+				70ADD2732AD89641002E08CF /* MainViewModel.swift */,
+				70ADD2752AD8999D002E08CF /* Country.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				70ADD26B2AD89234002E08CF /* Preview Assets.xcassets in Resources */,
 				70ADD2682AD89234002E08CF /* Assets.xcassets in Resources */,
+				70ADD27D2AD8A34F002E08CF /* Flags.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70ADD2662AD89234002E08CF /* ContentView.swift in Sources */,
+				70ADD2662AD89234002E08CF /* MainView.swift in Sources */,
+				70ADD2722AD8952A002E08CF /* CountryService.swift in Sources */,
 				70ADD2642AD89234002E08CF /* GuessTheFlagApp.swift in Sources */,
+				70ADD2762AD8999D002E08CF /* Country.swift in Sources */,
+				70ADD2742AD89641002E08CF /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
