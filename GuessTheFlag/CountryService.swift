@@ -20,17 +20,15 @@ class CountryService{
             guard let filePath = Bundle.main.path(forResource: "Flags", ofType: "json")else{
                 throw CountryServiceError.jsonFileNotFound
             }
-            print("got filepath")
             let fileURL = URL(filePath: filePath)
             let data = try Data(contentsOf:fileURL)
-            print("got url")
             let result = try JSONDecoder().decode([Country].self, from: data)
             countries = result;
         }catch is CountryServiceError{
-            print("Failed to load json")
+            fatalError("Failed to load flags JSON")
         }catch
         {
-           print("failed to get countries")
+           print("Failed to retrieve countries from JSON")
         }
     
     }
