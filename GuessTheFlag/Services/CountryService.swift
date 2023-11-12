@@ -38,16 +38,15 @@ class CountryService{
     }
     
     func getRandomCountries(amount:Int)->[Country]{
-        var countries:[Country] = [];
-        var i = amount
-        while(i>0){
+        var countries:Set<Country> = Set();
+        
+        while(countries.count < amount){
             if let country = self.getRandomCountry(){
-                countries.append(country)
+                countries.insert(country)
             }
-            i-=1
         }
         
-        return countries;
+        return Array(countries);
     }
     
     func getAllCountries() -> [Country] {

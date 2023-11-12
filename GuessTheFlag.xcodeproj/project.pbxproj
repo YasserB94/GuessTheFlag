@@ -61,15 +61,14 @@
 		70ADD2622AD89234002E08CF /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
-				70ADD27C2AD8A34F002E08CF /* Flags.json */,
+				70E7130A2B013ADE00D9E45E /* Structs */,
+				70E713092B013AC400D9E45E /* ViewModels */,
+				70E713082B013AB600D9E45E /* Views */,
+				70E713072B013AAF00D9E45E /* Data */,
+				70E713062B013AA200D9E45E /* Services */,
 				70ADD2632AD89234002E08CF /* GuessTheFlagApp.swift */,
-				70ADD2652AD89234002E08CF /* MainView.swift */,
 				70ADD2672AD89234002E08CF /* Assets.xcassets */,
 				70ADD2692AD89234002E08CF /* Preview Content */,
-				70ADD2712AD8952A002E08CF /* CountryService.swift */,
-				70ADD2732AD89641002E08CF /* MainViewModel.swift */,
-				70ADD2752AD8999D002E08CF /* Country.swift */,
-				70ADD27E2AD8B9BF002E08CF /* HapticService.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -80,6 +79,47 @@
 				70ADD26A2AD89234002E08CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70E713062B013AA200D9E45E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				70ADD27E2AD8B9BF002E08CF /* HapticService.swift */,
+				70ADD2712AD8952A002E08CF /* CountryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		70E713072B013AAF00D9E45E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				70ADD27C2AD8A34F002E08CF /* Flags.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		70E713082B013AB600D9E45E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70ADD2652AD89234002E08CF /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70E713092B013AC400D9E45E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				70ADD2732AD89641002E08CF /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		70E7130A2B013ADE00D9E45E /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				70ADD2752AD8999D002E08CF /* Country.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
